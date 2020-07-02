@@ -6,7 +6,6 @@ import 'package:shake/shake.dart';
 import 'package:vibration/vibration.dart';
 
 
-
 class FortuneCookiePage extends StatefulWidget {
   FortuneCookieViewModel model;
   FortuneCookiePage(this.model);
