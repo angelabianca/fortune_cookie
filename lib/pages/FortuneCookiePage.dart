@@ -15,8 +15,7 @@ class FortuneCookiePage extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() => _FortuneCookieState(model);
-
-
+  
 }
 class _FortuneCookieState extends State<FortuneCookiePage>{
 
@@ -68,7 +67,6 @@ class _FortuneCookieState extends State<FortuneCookiePage>{
         ),
       ),
 
-
       floatingActionButton: FloatingActionButton(
         onPressed: (){
           Share.share(text + lol);
@@ -78,7 +76,6 @@ class _FortuneCookieState extends State<FortuneCookiePage>{
       ),
     );
   }
-
   void notifyListeners() {}
 
 

@@ -18,7 +18,6 @@ class _FortuneCookieAppState extends State<FortuneCookieApp> {
 
   void initState() {
     super.initState();
-
     model = FortuneCookieViewModel();
   }
 
