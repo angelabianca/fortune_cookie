@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'model/FortuneCookieViewModel.dart';
 import 'pages/FortuneCookiePage.dart';
 
-
-
 void main() {
   runApp(FortuneCookieApp());
 }

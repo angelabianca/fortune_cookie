@@ -5,7 +5,6 @@ import 'package:share/share.dart';
 import 'package:shake/shake.dart';
 import 'package:vibration/vibration.dart';
 
-
 class FortuneCookiePage extends StatefulWidget {
   FortuneCookieViewModel model;
   FortuneCookiePage(this.model);
@@ -15,7 +14,7 @@ class FortuneCookiePage extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() => _FortuneCookieState(model);
-  
+
 }
 class _FortuneCookieState extends State<FortuneCookiePage>{
 

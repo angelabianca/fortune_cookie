@@ -1,8 +1,6 @@
 import 'dart:math';
 import 'package:scoped_model/scoped_model.dart';
 
-
-
 class FortuneCookieViewModel extends Model {
 
   String txt = "";
