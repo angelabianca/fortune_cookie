@@ -9,12 +9,10 @@ class FortuneCookiePage extends StatefulWidget {
   FortuneCookieViewModel model;
   FortuneCookiePage(this.model);
   String lol = "";
-
   String text = 'Schau dir meinen heutigen Glückskeks an: \n';
 
   @override
   State<StatefulWidget> createState() => _FortuneCookieState(model);
-
 }
 class _FortuneCookieState extends State<FortuneCookiePage>{
 

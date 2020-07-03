@@ -29,9 +29,7 @@ class _FortuneCookieAppState extends State<FortuneCookieApp> {
         ),
         home: FortuneCookiePage(model)
     );
-
   }
-
 }
 
 
