@@ -74,6 +74,5 @@ class _FortuneCookieState extends State<FortuneCookiePage>{
     );
   }
   void notifyListeners() {}
-
-
+  
 }
